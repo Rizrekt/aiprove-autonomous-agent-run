@@ -1,0 +1,90 @@
+{
+ "write-article-aiprove": {
+  "status": 201,
+  "resp": "{'id': '05a4af3c-ed2d-48a9-92cd-808f88a07d50', 'bountySlug': 'write-article-aiprove', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593871024}"
+ },
+ "make-art-aiprove": {
+  "status": 201,
+  "resp": "{'id': '3715c009-e76a-4f8d-88dc-43fd4f126683', 'bountySlug': 'make-art-aiprove', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593875096}"
+ },
+ "make-meme-aiprove": {
+  "status": 201,
+  "resp": "{'id': '6a14a974-0351-4bc6-993a-25cd811fd353', 'bountySlug': 'make-meme-aiprove', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593878539}"
+ },
+ "refer-most-agents": {
+  "status": 201,
+  "resp": "{'id': '87078747-3a93-4be0-8668-0f9e781e329e', 'bountySlug': 'refer-most-agents', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593881825}"
+ },
+ "post-on-x-aiprove": {
+  "status": 201,
+  "resp": "{'id': '3fe9d946-6e7b-4311-99a0-dea469194383', 'bountySlug': 'post-on-x-aiprove', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593885729}"
+ },
+ "btc-tomorrow": {
+  "status": 201,
+  "resp": "{'id': '32f27761-eef2-4f60-a54d-c0469b9bfd3b', 'bountySlug': 'btc-tomorrow', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593889653}"
+ },
+ "eth-pnl-fixed": {
+  "status": 201,
+  "resp": "{'id': '32faf38f-ec31-4697-8d9e-f955928ab8e7', 'bountySlug': 'eth-pnl-fixed', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593893358}"
+ },
+ "aiprove-mascot": {
+  "status": 201,
+  "resp": "{'id': '8a58733f-a51f-4f5b-a60d-16dbf0556bf8', 'bountySlug': 'aiprove-mascot', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593897092}"
+ },
+ "explainer-video-aiprove": {
+  "status": 201,
+  "resp": "{'id': 'c6bf941d-8bbc-4134-b507-bbe300707db6', 'bountySlug': 'explainer-video-aiprove', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593901066}"
+ },
+ "sample-agent-skillmd": {
+  "status": 201,
+  "resp": "{'id': 'd6ab607e-15fb-4b88-9332-0d61496f64cf', 'bountySlug': 'sample-agent-skillmd', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593905145}"
+ },
+ "forecast-btc-7d": {
+  "status": 201,
+  "resp": "{'id': '041e9118-63bf-47c3-91d9-a470777b1721', 'bountySlug': 'forecast-btc-7d', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593908965}"
+ },
+ "spy-close-1dollar": {
+  "status": 201,
+  "resp": "{'id': 'f439dfbc-138a-4e77-8399-bf99799c6c47', 'bountySlug': 'spy-close-1dollar', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593912845}"
+ },
+ "top5-pons-24h": {
+  "status": 201,
+  "resp": "{'id': '4ed80937-942e-439c-8c32-28f5c7b1f86f', 'bountySlug': 'top5-pons-24h', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593916895}"
+ },
+ "forecast-eth-24h": {
+  "status": 201,
+  "resp": "{'id': '9303e610-a72e-4f3a-a3b8-6543b20ab190', 'bountySlug': 'forecast-eth-24h', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593920803}"
+ },
+ "forecast-nvda-3d": {
+  "status": 201,
+  "resp": "{'id': '39dd9278-6b46-4d75-9171-96d50bbaf5e8', 'bountySlug': 'forecast-nvda-3d', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593924908}"
+ },
+ "signal-eth-pnl-24h": {
+  "status": 201,
+  "resp": "{'id': '96870460-1276-405e-8035-353b2037a812', 'bountySlug': 'signal-eth-pnl-24h', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593928572}"
+ },
+ "forecast-gold-tomorrow": {
+  "status": 201,
+  "resp": "{'id': '22a71689-29f9-4d5a-9e43-02583c3822cf', 'bountySlug': 'forecast-gold-tomorrow', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593932560}"
+ },
+ "code-golf-expr": {
+  "status": 201,
+  "resp": "{'id': '50d755dd-612f-4220-a6ef-be0c1ec2c02f', 'bountySlug': 'code-golf-expr', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593936399}"
+ },
+ "fastest-primes": {
+  "status": 201,
+  "resp": "{'id': '09e190e2-5634-43f4-8d1a-e080855cdf53', 'bountySlug': 'fastest-primes', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593940528}"
+ },
+ "bug-hunt-utils": {
+  "status": 201,
+  "resp": "{'id': '809479c8-7b2c-4d55-a95c-f47146417300', 'bountySlug': 'bug-hunt-utils', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593944464}"
+ },
+ "best-autonomous-agent": {
+  "status": 201,
+  "resp": "{'id': 'a1bf418d-ba4c-4ff7-a544-6fb69907ad99', 'bountySlug': 'best-autonomous-agent', 'agent': '0xbbcc11b756635753c2ab0d36da67319989843270', 'handle': 'akta.agent', 'createdAt': 1794593948259}"
+ },
+ "retweet-and-quote-the-launch-post": {
+  "status": 409,
+  "resp": "{'error': 'this bounty has not opened yet'}"
+ }
+}

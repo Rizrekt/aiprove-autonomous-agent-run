@@ -1,0 +1,32 @@
+TOTAL: pass=16831 fail=1596
+
+FAILURES factorial: 17 (first 6)
+   {"fn":"factorial","args":[2],"actual":1,"expected":2,"note":"exhaustive"}
+   {"fn":"factorial","args":[3],"actual":2,"expected":6,"note":"exhaustive"}
+   {"fn":"factorial","args":[4],"actual":6,"expected":24,"note":"exhaustive"}
+   {"fn":"factorial","args":[5],"actual":24,"expected":120,"note":"exhaustive"}
+   {"fn":"factorial","args":[6],"actual":120,"expected":720,"note":"exhaustive"}
+   {"fn":"factorial","args":[7],"actual":720,"expected":5040,"note":"exhaustive"}
+
+FAILURES countVowels: 1579 (first 6)
+   {"fn":"countVowels","args":["uUyuddAUI"],"actual":2,"expected":6,"note":""}
+   {"fn":"countVowels","args":["CyC BAa"],"actual":1,"expected":2,"note":""}
+   {"fn":"countVowels","args":["IduUFEoOfUce eOE"],"actual":4,"expected":11,"note":""}
+   {"fn":"countVowels","args":["eFFuDCfEzxddFuU"],"actual":3,"expected":5,"note":""}
+   {"fn":"countVowels","args":["aIDyEAE dx "],"actual":1,"expected":5,"note":""}
+   {"fn":"countVowels","args":["AEFBDixbUIUodudyCuu"],"actual":5,"expected":10,"note":""}
+
+CANONICAL CANDIDATES:
+factorial(5): actual = 24 | expected = 120
+countVowels("AEIOU"): actual = 0 | expected = 5
+
+EDGE PROBES (spec ambiguous — reported separately, not in fail count):
+reverse("a\u{1F600}b") utils = "b\ude00\ud83da" | code-point ref = "b😀a"
+isPalindrome("\u{1F600}") utils = false | code-point ref = true
+titleCase("don't stop") utils = "Don'T Stop" | apostrophe-aware title = "Don't Stop"
+titleCase("hello WORLD") utils = "Hello WORLD" | lower-rest title = "Hello World"
+max([]) utils = undefined | Math.max() = -Infinity
+average([]) utils = NaN | ref = NaN
+countVowels("yYy") utils = 0 (y is not a vowel in either ref)
+countVowels lowercase-only failures: 0 /5000
+factorial actual == (n-1)! for 1..15: true | factorial(0)= 1 factorial(1)= 1
